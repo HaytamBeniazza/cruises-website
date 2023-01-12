@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pic-login{
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+
+}
+.form-control {
+    border: 1px solid black;
+    border-radius: 0px;
+    height: 40px;
+}
+.form-label{
+    margin-bottom: 10px;
+}
+/*nav bar*/
+#nav{
+    background-color:white;
+}
+
+li a{
+    margin-right:50px;
+    color: rgb(219, 0, 0);
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+    li a{
+        margin-right:50px ;
+    }
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.place{
+    text-align: center;
+    font-weight: bold;
+}
+.grey{
+    background-color: aliceblue;
+}
+.landing{
+    height: 100vh;
+}
+.txt_lan{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#reserve{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    color: white;
+}
+#pic_about{
+    width: 100%;
+}
+
+/*about us*/
+#title_about{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.title_ticket{
+    text-align: center;
+}
+.title_ticket2{
+    color: rgb(147, 145, 145);
+    text-align: center;
+}
+.err{
+    color: red;
+}
+#logout{
+    width: max-content;
+}
+
+/*croisiere*/
+
+.croisiere{
+    border: 1px solid rgb(249, 248, 248);
+    background-color: rgb(249, 248, 248);
+    border-radius: 7px;
+    box-shadow: 1px 2px 30px -5px rgba(0,0,0,0.23);
+-webkit-box-shadow: 1px 2px 30px -5px rgba(0,0,0,0.23);
+-moz-box-shadow: 1px 2px 30px -5px rgba(0,0,0,0.23);
+    border-right-color:gold;
+    border-right-width:20px ;
+}
+
+.prix{
+    font-weight: bold;
+    font-size: 40px;
+}
+.mad{
+    font-size: 20px;
+}
+#prix_div:hover{
+    background-color: gold;
+    color: white ;
+}
+
+.depart_dep{
+    color: rgb(61, 52, 52);
+    font-weight: bold;
+}
+.nuit{
+    font-size: larger;
+    width: fit-content;
+    border: 1px solid #3d89db;
+    border-radius: 20px;
+    padding:7px 15px;
+    color: #3d89db;
+}
+.title_vg{
+    color: #3d89db;
+}
+#btnaddCroisiere{
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 10px;
+
+}
